@@ -3,9 +3,7 @@
 // 1. Задача на розворот числа:
 
 const currentMaxValue = 4589;
-let stringValue = currentMaxValue.toString();
-let stringArray = stringValue.split("");
-let reverseString = stringArray.reverse().join("");
+let reverseString = currentMaxValue.toString().split("").reverse().join("");
 let reverseMaxValue = parseInt(reverseString);
 
 console.log(reverseMaxValue);
